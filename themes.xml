@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme — windowBackground only; Compose handles the rest -->
+    <style name="Theme.ARUUU" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/navy_deep</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.ARUUU.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/navy_deep</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_aruuu_splash</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.ARUUU</item>
+    </style>
+</resources>

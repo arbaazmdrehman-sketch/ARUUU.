@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ARUUU Backup Rules
+    Exclude all sensitive data from cloud/ADB backup.
+    Credentials and vault state must NEVER leave the device.
+-->
+<full-backup-content>
+    <!-- Exclude encrypted credentials -->
+    <exclude domain="sharedpref" path="aruuu_secure_creds.xml" />
+    <!-- Exclude Room database (contains locked app list) -->
+    <exclude domain="database" path="aruuu.db" />
+    <exclude domain="database" path="aruuu.db-shm" />
+    <exclude domain="database" path="aruuu.db-wal" />
+    <!-- Exclude intruder selfie images -->
+    <exclude domain="file" path="intruder_selfies" />
+    <!-- Exclude DataStore settings (contains auth method preference) -->
+    <exclude domain="file" path="datastore" />
+</full-backup-content>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Intruder selfie images stored in app's private files dir -->
+    <files-path name="intruder_selfies" path="intruder_selfies/" />
+    <cache-path name="camera_cache" path="." />
+</paths>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ARUUU</string>
+    <string name="accessibility_service_label">ARUUU App Lock</string>
+    <string name="accessibility_service_description">ARUUU uses this service to detect when locked apps are opened and display a lock screen.</string>
+    <string name="notification_channel_name">ARUUU Security</string>
+    <string name="notification_channel_description">Notifications for app lock status and intruder alerts</string>
+</resources>
